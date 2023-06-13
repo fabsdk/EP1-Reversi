@@ -393,7 +393,7 @@ melhorMovimento = [0, 0] # variável para armazenar o melhor movimento
 vez = 1 # variável para controlar a vez do jogador (1 para o jogador preto, 2 para o jogador branco)
 tabuleiro = tabuleiro() # criação do tabuleiro
 running = True #Variável para controlar o loop principal do jogo, se está rodando ou não
-profundidadeIA = 2 # profundidade máxima para a busca do algoritmo minimax
+profundidadeIA = 4 # profundidade máxima para a busca do algoritmo minimax
 
 while running:
     screen.fill((0, 0, 0)) # preenche a tela com uma cor de fundo
